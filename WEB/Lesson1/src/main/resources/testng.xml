@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAllBrowsers" parallel="methods" thread-count="3">
+
+    <test name="FF, Chrmoe, Safari browsers" >
+        <classes>
+            <class name="com.example.browsers.SetupTests" />
+            <class name="com.example.browsers.TitleTest" />
+            <class name="com.example.browsers.MashaTestNG" />
+        </classes>
+    </test>
+
+
+</suite>
