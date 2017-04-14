@@ -8,23 +8,23 @@ Purpose of this project is to get familiar with the structure and basic tests.
 
   -  Open IntelliJ IDEA. You will see this window. 
 
-![alt tag](qa-automation-lessons/WEB/Lesson1/image files/step1.png)
+[![Step1](qa-automation-lessons/WEB/Lesson1/image files/step1.png)]
 
   -  Click on "Create New Project"
 
-![alt tag](qa-automation-lessons/WEB/Lesson1/image files/step2.png)
+[![Step2](qa-automation-lessons/WEB/Lesson1/image files/step2.png)]
 
   -  Select "Maven" on the left side menu
 
-![alt tag](qa-automation-lessons/WEB/Lesson1/image files/step3.png)
+[![Step3](qa-automation-lessons/WEB/Lesson1/image files/step3.png)]
 
   -  Enter GroupId - name of your project (all lowercase and no spaces) and ArtifactId - (reverse url: google.com will be com.google)
 
-![alt tag](qa-automation-lessons/WEB/Lesson1/image files/step4.png)
+[![Step4](qa-automation-lessons/WEB/Lesson1/image files/step4.png)]
 
   -  Enter the project name - here you may use any case and spaces
 
-![alt tag](qa-automation-lessons/WEB/Lesson1/image files/step5.png)
+[![Step5](qa-automation-lessons/WEB/Lesson1/image files/step5.png)]
 
   -  Click "Finish"
 
