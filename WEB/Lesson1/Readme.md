@@ -8,7 +8,7 @@ Purpose of this project is to get familiar with the structure and basic tests.
 
   -  Open IntelliJ IDEA. You will see this window. 
 
-![Step1](/qa-automation-lessons/WEB/Lesson1/images/step1.png "Step 1")
+![Step1](qa-automation-lessons/WEB/Lesson1/images/step1.png "Step 1")
 
   -  Click on "Create New Project"
 
