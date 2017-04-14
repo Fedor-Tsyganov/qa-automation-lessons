@@ -18,7 +18,7 @@ We will be usign multiple 3rd party libraries:
   -  Selenium WebDriver
   -  TestNG
   -  Apache Commons
-  -  and some other libraries (see pom.xml)
+  -  and some other libraries (see pom.xml or build.gradle)
 
 
 (C) Fedor Tsyganov, 2017
