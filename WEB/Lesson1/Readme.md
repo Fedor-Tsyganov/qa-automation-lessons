@@ -8,23 +8,23 @@ Purpose of this project is to get familiar with the structure and basic tests.
 
   -  Open IntelliJ IDEA. You will see this window. 
 
-![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step1.png?raw=true){ width=25% }
+![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step1.png?raw=true)
 
   -  Click on "Create New Project"
 
-![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step2.png?raw=true){ width=25% }
+![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step2.png?raw=true)
 
   -  Select "Maven" on the left side menu
 
-![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step3.png?raw=true){ width=25% }
+![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step3.png?raw=true)
 
   -  Enter GroupId - name of your project (all lowercase and no spaces) and ArtifactId - (reverse url: google.com will be com.google)
 
-![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step4.png?raw=true){ width=25% }
+![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step4.png?raw=true)
 
   -  Enter the project name - here you may use any case and spaces
 
-![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step5.png?raw=true){ width=25% }
+![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step5.png?raw=true)
 
   -  Click "Finish"
 
