@@ -6,7 +6,6 @@
         <classes>
             <class name="com.example.browsers.SetupTests" />
             <class name="com.example.browsers.TitleTest" />
-            <class name="com.example.browsers.MashaTestNG" />
         </classes>
     </test>
 
