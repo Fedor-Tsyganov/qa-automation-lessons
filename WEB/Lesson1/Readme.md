@@ -63,7 +63,7 @@ If you still confused about this file, you can read [more about pom.xml] or goog
 
   -  Open pom.xml
 
-  -  Add "<dependecies> </dependencies>" tags. Inside those tags you are going to add 3rd party libraries or frameworks. So, it's like a basket where you add single items
+  -  Add "dependecies" tag. Inside those tags you are going to add 3rd party libraries or frameworks. So, it's like a basket where you add single items
 
   -  Now go to Google and type: Maven Central TestNG. It will bring you to a place where all opensource maven compatible libraries are hosted (to say it in simple words)
 
@@ -79,7 +79,7 @@ If you still confused about this file, you can read [more about pom.xml] or goog
 
 ![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step9.png?raw=true)
 
-  -  Go back to your pom.xml and enter copied text inside "<dependecies> </dependencies>" tags. You can see the complete code in Lesson1/project/src/pom.xml file
+  -  Go back to your pom.xml and enter copied text inside "dependecies" tag. You can see the complete code in Lesson1/project/src/pom.xml file
 
 Congrats!
 
