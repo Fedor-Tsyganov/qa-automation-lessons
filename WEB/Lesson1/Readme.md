@@ -85,7 +85,7 @@ Congrats!
 
 You've just imported your first library/framework.
 
-By the way, IntelliJ IDEA will offer you to enable auto-import. Go ahead and click on "Enable Auto Import" and will take care of everything for you. Otherwise you will need to do it manually. I will not explain how to do it manually (it's not hard), because i don't want to waste time on that, but it worth learning it. So do your own research on this topic.
+By the way, IntelliJ IDEA will offer you to enable auto-import. Go ahead and click on "Enable Auto Import" and it will take care of everything for you. Otherwise you will need to do it manually, but I will not explain how to do it manually (it's not hard) because i don't want to waste time on that, however it worth learning it. So do your own research on this topic.
 
 
   [here]: <https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html>
