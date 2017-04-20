@@ -80,6 +80,39 @@ If you still confused about this file, you can read [more about pom.xml] or goog
 ![](https://github.com/Fedor-Tsyganov/qa-automation-lessons/blob/master/WEB/Lesson1/images/step9.png?raw=true)
 
   -  Go back to your pom.xml and enter copied text inside "dependecies" tag. You can see the complete code in Lesson1/project/src/pom.xml file
+  
+Your pom.xml file should look this way:
+
+```sh
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>webautomation</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+    </dependencies>
+</project>
+```
+
+It's important that you "dependencies" tags stay inside "project" tags and not inside outher tags. You might realise that inside "dependencies" tags you several "dependency" tags. Think of it as a single item (dependency) inside of a box (dependecies). 
+
+I recommend you to go over [this page] that expains pom.xml structure in a great detail and maybe  read some additional documentation about purpose of this file. 
+
+
 
 Congrats!
 
@@ -90,5 +123,6 @@ By the way, IntelliJ IDEA will offer you to enable auto-import. Go ahead and cli
 
   [here]: <https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html>
   [more about pom.xml]: <https://www.javatpoint.com/maven-pom-xml>
+  [this page]:<https://maven.apache.org/guides/introduction/introduction-to-the-pom.html>
 
 
