@@ -13,7 +13,7 @@ It will all depend on a project, but the idea behind is to show how to use those
 
 ### Libraries
 
-We will be usign multiple 3rd party libraries:
+We will be using multiple 3rd party libraries:
 
   -  Selenium WebDriver
   -  TestNG
