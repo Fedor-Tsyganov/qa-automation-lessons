@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test trivago.com" parallel="methods" thread-count="3">
+
+    <test name="Main page test" >
+        <classes>
+            <class name="com.example.tests.BaseTest" />
+            <class name="com.example.tests.MainPageTest" />
+        </classes>
+    </test>
+
+
+</suite>
