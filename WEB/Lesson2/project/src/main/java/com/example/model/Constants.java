@@ -1,7 +1,7 @@
 package com.example.model;
 
 /**
- * Created by fedortsyganov on 4/20/17.
+ * Created by fedor tsyganov on 4/20/17.
  */
 public class Constants {
     public static final String CHROME_DRIVER = "webdriver.chrome.driver";
