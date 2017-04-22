@@ -6,6 +6,9 @@ import org.openqa.selenium.support.FindBy;
 
 public class MainPage {
 
+    //@FindBy(css = "")
+    //public WebElement pageTopHeader;
+
     //Elements on the Main page
     @FindBy(css = "#js-fullscreen-hero > div > h1 > span:nth-child(1)")
     public WebElement pageCenterTitlePart1;
@@ -22,8 +25,22 @@ public class MainPage {
     @FindBy(css = "#js_navigation > div > div:nth-child(1)")
     public WebElement likeButton;
 
+    //dropdown list
+    @FindBy(xpath = "//*[@id=\"select-currency\"]")
+    public WebElement currencyDropdownList;
+
+    @FindBy(xpath = "//*[@id=\"select-currency\"]/optgroup[1]")
+    public List<WebElement> currencyDropdownListTopCurrencies;
+
+    @FindBy(xpath = "//*[@id=\"select-currency\"]/optgroup[2]")
+    public List<WebElement> currencyDropdownListAllCurrencies;
+
+
+    @FindBy(css = "#js_navigation > div > div:nth-child(2) > div > div")
+    public WebElement currencyName;
+
     @FindBy(css = "#js_navigation > div > div:nth-child(2)")
-    public WebElement currencyButton;
+    public WebElement currencyTab;
 
     @FindBy(css = "#js_navigation > div > div:nth-child(3)")
     public WebElement languageButton;
